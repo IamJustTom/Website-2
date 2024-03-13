@@ -1,35 +1,31 @@
-header
-{
+header {
     background-color: black;
-    color:white;
+    color: white;
     grid-area: header;
     text-align: center;
+    padding: 1em;
 }
 
-nav
-{
-    background-color:grey;
+nav {
+    background-color: grey;
     grid-area: nav;
 
 }
 
-main
-{
+main {
     background-color: darkgrey;
     grid-area: main;
     text-align: center;
 }
 
-aside
-{
+aside {
     background-color: lightblue;
     grid-area: aside;
 }
 
-footer
-{
+footer {
     background-color: black;
-    color:white;
+    color: white;
     grid-area: footer;
     text-align: center;
 }
