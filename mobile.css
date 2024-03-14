@@ -7,10 +7,10 @@ body {
         "nav"
         "main"
         "aside"
-        "footer"    
+        "footer"
     ;
 
-    background-color: aqua;
+    background-color: black;
 }
 
 
@@ -28,4 +28,43 @@ body {
     width: 1.25em;
     margin-top: 0.3em;
     border-top: 0.2em solid #fff;
+}
+
+nav {
+    display: block;
+    background-color: darkgrey;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+#clicked .on {
+    display: block;
+}
+
+#clicked .off {
+    display: none;
+}
+
+#clicked:target .on {
+    display: none;
+}
+
+#clicked:target .off {
+    display: block;
+}
+
+nav {
+    display:none
+}
+
+#clicked:target nav {
+    display: block
+
+}
+
+img {
+    display: none;
 }
