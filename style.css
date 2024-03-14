@@ -1,31 +1,43 @@
 header {
-    background-color: black;
+    background-color: #1f1f1f;
     color: white;
     grid-area: header;
     text-align: center;
     padding: 1em;
+    border: 1px solid #333333;
 }
 
 nav {
-    background-color: grey;
+    background-color: #333333;
     grid-area: nav;
+    border: 1px solid #4d4d4d;
+    padding: 2em;
+    color: white;
+}
 
+nav ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 main {
-    background-color: darkgrey;
+    background-color: #2a2a2a;
     grid-area: main;
+    color: #cccccc;
     text-align: center;
+    border: 1px solid #333333;
 }
 
 aside {
-    background-color: lightblue;
+    background-color: #3a3a3a;
     grid-area: aside;
+    border: 1px solid #4d4d4d;
 }
 
 footer {
-    background-color: black;
+    background-color: #1f1f1f;
     color: white;
     grid-area: footer;
     text-align: center;
+    border: 1px solid #333333;
 }
